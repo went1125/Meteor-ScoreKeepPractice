@@ -1,0 +1,1 @@
+This is my first meteor-project app and website following tutorial step by step.
