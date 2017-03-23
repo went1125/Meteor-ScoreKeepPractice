@@ -1,0 +1,27 @@
+.button {
+    line-height: 1;
+    padding: 1.3rem;
+    margin-left: 1.3rem;
+    font-weight: 600;
+    border: 1px solid #555555;
+    color: #555555;
+    background: transparent;
+    cursor: pointer;
+    outline: none;
+    transition: background .2s ease, transform .2s ease;
+
+    &:hover, &:focus {
+        background: #e8e8e8;
+    }
+
+    &:active {
+        background: #cccccc;
+        transform: scale(1.1);
+    }
+}
+
+.button--round {
+    border-radius: 50%;
+    height: 4rem;
+    width: 4rem;
+}
